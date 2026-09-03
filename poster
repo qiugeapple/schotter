@@ -24,10 +24,10 @@ import random
 # The knobs. These are yours. Change them, run again, look, commit.
 # ---------------------------------------------------------------------------
 
-COLS = 12            # triangles across
-ROWS = 22            # triangles down — the chaos builds over this many rows
+COLS = 14            # triangles across
+ROWS = 8            # triangles down — the chaos builds over this many rows
 SEED = 5913          # any integer. Same seed = same image, every time, forever.
-CHAOS = 1.0           # how fast order collapses. 0 = perfect grid. 2 = rubble.
+CHAOS = 1.8           # how fast order collapses. 0 = perfect grid. 2 = rubble.
 SIZE = 40            # size of one triangle, in svg units
 MARGIN = 60          # breathing room around the grid
 STROKE = "#111111"   # line colour
