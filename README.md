@@ -1,16 +1,15 @@
-## Hi there 👋
+## Schotter Project
+这是Week01的Schotter碎石艺术生成项目，使用Python生成扰动破碎方块的SVG矢量图形。
 
-<!--
-**qiugeapple/qiugeapple** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 如何运行
+1. 在本地打开项目文件夹
+2. 运行 sketch.py 脚本
+3. 运行完成后会输出 sketch.svg 文件，可以用浏览器打开查看图形效果。
 
-Here are some ideas to get you started:
+## 参数说明（可调旋钮）
+- SEED：随机种子，固定种子可以复现相同的图案
+- CHAOS：混乱程度，数值越大方块扭曲、错位效果越强
+- COLS：画面列数，控制横向方块数量
+- ROWS：画面行数，控制纵向方块数量
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+修改上方参数后重新运行脚本，就会生成全新的SVG图像。
